@@ -13,6 +13,7 @@ from datetime import timedelta
 import base64
 
 app = dash.Dash(__name__)
+server = app.server
 
 
 #Load Dataframe
