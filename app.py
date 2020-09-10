@@ -76,10 +76,10 @@ app.layout = html.Div(
                             children=[
                                 dcc.DatePickerSingle(
                                     id="date-picker",
-                                    min_date_allowed=dt(2016, 1, 1),
-                                    max_date_allowed=dt(2016, 3, 30),
-                                    initial_visible_month=dt(2016, 1, 15),
-                                    date=dt(2016, 1, 15).date(),
+                                    min_date_allowed=dt(2016, 1, 18),
+                                    max_date_allowed=dt(2016, 1, 24),
+                                    initial_visible_month=dt(2016, 1, 18),
+                                    date=dt(2016, 1, 18).date(),
                                     display_format="MMMM D, YYYY",
                                                     )
                             ],
